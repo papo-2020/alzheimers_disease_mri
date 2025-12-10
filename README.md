@@ -84,28 +84,6 @@ Comprehensive EDA was performed to understand dataset characteristics:
 - **pydicom** - DICOM file handling
 - **scikit-learn** - Metrics and evaluation
 
-## Structure
-
-```
-alzheimers-mri-detection/
-│
-├── alzheimers_disease.ipynb       # Main Jupyter notebook with full analysis
-├── README.md                       # This file
-├── requirements.txt                # Python dependencies
-├── models/                         # (Generated during training)
-│   ├── baseline_cnn_best.keras    # Best baseline model checkpoint
-│   ├── deep_cnn_best.keras        # Deep CNN checkpoint
-│   └── transfer_learning_best.keras
-│
-├── figures/                        # (Generated during analysis)
-│   ├── class_distribution.png     # EDA visualizations
-│   ├── sample_mri_slices.png
-│   ├── training_curves.png        # Model training history
-│   └── confusion_matrix.png       # Test set results
-│
-└── presentation/
-    ├── alzheimers_presentation.pptx   # Final presentation slides
-```
 ## Requirements
 
 ```bash
